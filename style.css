@@ -1,0 +1,181 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,body{
+     width: 100%;
+     height: 100%;
+}
+.main{
+     width: 100%;
+     height: 100%;
+}
+.navebar{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: large;
+}
+.logo{
+    height: 70%;
+    
+    width: 6%;
+    
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.Nonprofit{
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: -60px;
+}
+.texts{
+    margin: -30px;
+}
+.texts:hover{
+    color: rgb(88, 86, 223);
+}
+.batn{
+    display: flex;
+}
+.batn1{
+    background-color: rgb(88, 86, 223);
+    color: white;
+    padding: 10px 25px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.batn1:hover{
+    background-color: black;
+}
+.batn2{
+    border: 1px solid rgb(88, 86, 223);
+    color: rgb(88, 86, 223);
+    padding: 10px 25px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.batn2:hover{
+    border-color: black;
+    color: black;
+}
+
+.fakenavebar{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+}
+.page1{
+    width: 100%;
+    height: 87%;
+    background-color: white;
+}
+.heading{
+    width: 100%;
+    height: 35%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 10%;
+    padding-bottom: 5%;
+
+    font-family:'Segoe UI';
+    color: rgb(6, 6, 84);
+
+}
+.heading span{
+    width: 75%;
+
+}
+.space{
+    display: inline-block;
+    transform: translate(40%);
+}.card{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cards{
+    width: 29%;
+    height: 100%;
+    margin: 12px;
+
+    border-radius: 15px;
+
+    background-image: url(https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/07/Non-Profit-Category-Page-Statistics-Card-Card-Background-Version-1-1.png?resize=768,765);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+} 
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(6, 6, 84);
+
+    padding-left: 5px;
+    padding-top: 30px;
+    
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(6, 6, 84);
+
+    padding-left: 3px;
+    padding-bottom: 10px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    width: 100%;
+    height: 55%;
+
+    font-weight: 50;
+    font-size: large;
+
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer span{
+    padding-top: 22px;
+    font-weight: lighter;
+    font-size: smaller;
+}
