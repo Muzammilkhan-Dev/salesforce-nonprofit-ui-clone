@@ -27,6 +27,7 @@ All images, logos, and design inspiration belong to **Salesforce**.
 ## 🌐 Live Demo
 This project is deployed using **GitHub Pages**.  
 Live link will be available here.
+https://muzammilkhan-dev.github.io/salesforce-nonprofit-ui-clone/
 
 ## ✍️ Author
 - Muzammil Khan
